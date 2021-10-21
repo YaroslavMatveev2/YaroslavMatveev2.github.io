@@ -1,0 +1,524 @@
+/*------Обнуление-------*/
+
+ul,li{
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+margin: 0px;
+padding: 0px;
+font-size: 20px;
+line-height: 27px;
+letter-spacing: 0.1875px;
+color: #48555B;
+font-family: 'Open Sans', sans-serif;
+}
+
+/*------BACKGROUND-------*/
+.bg_logo{
+    padding-top:40px;
+}
+.background_logo{
+width: 100%;
+max-width: 104px;
+margin:  0 auto;
+}
+.background{
+ color: #fff;
+ width: 100%;
+ height: 100vh;
+ background: url(Images/bg.jpg) center no-repeat;
+ background-size: cover;
+}
+.background_txt{
+    padding-top: 220px;
+    text-align: center;
+    width: 100%;
+    max-width: 611px;
+    margin:  0 auto;
+    font-family: 'Bebas Neue', cursive;  
+    letter-spacing: 5.70937px;
+    font-size: 60px;
+    line-height: 70px;
+}
+.background_txtmini{
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    margin:  0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.1875px;
+}
+.background_end{
+margin-top:250px;
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+text-align: center;
+letter-spacing: 3.7px;
+}
+
+/*---------CONTAINER---------*/
+.container{
+   width: 100%;
+   max-width: 1000px;
+   margin: 0 auto;
+}
+
+/*----------NAV------------*/
+.menu{
+    align-items: center;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_txt{
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1.09091px;
+}
+.menu_ul{
+    display: flex;
+}
+.menu_li{
+    margin-right: 25px;
+}
+.menu_li:last-child{
+    margin-right: 0px;
+}
+.menu_li:hover{
+    cursor: pointer;
+    color: rgba(0, 164, 229, 1);
+}
+
+/*-------Heading--------*/
+.heading{
+    text-transform: uppercase;
+    width: 100%;
+    max-width: 124px;
+    padding-top: 80px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 2.30625px;
+    color: #48555B;
+
+}
+.heading:after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: rgba(0, 164, 229, 1);
+}
+
+/*---------CONTENT----------*/
+.content_heading{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.content_txt{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+.content_first_txt{
+    text-align: left;
+    max-width: 400px;
+    padding-right: 80px;
+}
+.content_first{
+    margin-bottom: 80px;
+    padding-top: 80px;
+    padding-right:10px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_images{
+    display: flex;
+}
+
+/*------------capabilities--------------*/
+
+.capabilities{
+    padding-bottom: 80px;
+    display: flex;
+}
+
+.capabilities_content{
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    font-size: 11px;
+    line-height: 19px;
+}
+
+.capabilities_heading{
+    width: 250px;
+    min-width: 250px;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 18px;
+    line-height: 25px;  
+    letter-spacing: 2.30625px;
+    color: #48555B;
+}
+
+.capabilities_button> a{
+    margin-left: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    width: 150px;
+    height: 40px;
+    background-color:rgba(0, 164, 229, 1);
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 40px;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.capabilities_heading:after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    margin-top: 10px;
+    background-color: rgba(0, 164, 229, 1);
+}
+
+/*---------WHAT WE DO?----------*/
+
+.we_do_heading{
+    padding-bottom: 10px;
+    padding-top: 25px;
+    font-size: 16px;
+    letter-spacing: 0.426667px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #48555B;
+
+}
+
+.we_do_txt{
+    font-size: 13px;
+}
+
+.we_do_card{
+    border: 1px solid #E6E6E6;
+    padding: 25px;
+    max-width: 250px;
+}
+
+.we_do{
+    padding-bottom: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*-------Bulid-------*/
+.bulid{
+    margin-bottom: 250px;
+    text-align: center;
+    align-items: center;
+}
+
+.bulid_heading{
+    font-weight: bold;
+    width: 330px;
+    margin: 0 auto;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    margin-bottom: 35px;
+}
+
+.bulid_btn>a{
+    margin: 0 auto;
+    text-decoration: none;
+    display: block;
+    width: 150px;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    background-color:rgba(0, 164, 229, 1);
+    text-align: center;
+    letter-spacing: 0.5px;
+    line-height: 40px;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+/*---------SIGN UP------------*/
+
+.signup_container{
+    display: flex;
+    width: 100%;
+    max-width: 700px;
+    padding-top: 35px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.signup{
+    height: 100px;
+    background-color: rgba(23, 24, 25, 1);
+}
+.input{
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.07px;
+    color: #48555B;
+    border: none;
+    outline: none;
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.signup_input{
+    display: flex;
+    text-decoration: none;
+}
+.signup_txt{
+    padding-right: 70px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+letter-spacing: 0.846154px;
+color: #FFFFFF;
+}
+
+.btn{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    width: 150px;
+    height: 42.2px;
+    cursor: pointer;
+    left: 0px;
+    top: 0px;
+    background: #00A4E5;
+    letter-spacing: 0.5px;
+    border:0px;
+    color:#fff;
+    padding: 0px;
+
+}
+
+/*---------BASEMENT----------*/
+.basement{
+    width:100%;
+    height: 240px;
+    background: #141A20;
+}
+
+.basement_ul{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+.basement_card{
+    width: 100%;
+    max-width: 500px;
+    text-align: left;
+    padding-top: 20px;
+    font-size: 11px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+}
+
+.basement_txt{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+.basement_logo{
+    padding-bottom: 15px;
+    display: flex;
+}
+
+
+.basement_container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*---------END----------*/
+.end{
+    margin: 0 auto;
+    height: 60px;
+    width: 100%;
+    background: #171819;
+}
+
+.end_container{
+    line-height: 60px;
+    max-width: 320px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 11px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+}
+
+/*--------MEDIA---------*/
+@media (max-width:1100px){
+   .background_txt{
+       font-size: 50px;
+   }
+
+   .background_txtmini{
+       font-size: 14px;
+   }
+
+   .background_end{
+       margin-top: 190px;
+   }
+}
+
+@media (max-width:940px){
+  .content_img{
+    width: 120px;
+    height: 204px;
+  }
+}
+
+@media (max-width:890px){
+    .content_first_txt{
+        padding-right: 0px;
+    }
+}
+
+@media (max-width:800px){
+    .content_first_txt{
+     text-align: center;
+     margin: 0 auto;
+    }
+
+    .content_first{
+        display: block;
+    }
+
+    .content_img{
+      margin: 0 auto;
+    }
+
+  .capabilities_heading{
+      padding-right: 25px;
+      font-size:17px;
+      letter-spacing: 0.5px;
+  }
+
+  .basement{
+      display: none;
+  }
+
+}
+@media(max-width:653px){
+    .we_do_card{
+        text-align: center;
+     margin: 0 auto;
+     
+    }
+
+    .we_do{
+        display: block;
+    }
+
+    .background_txt{
+        padding-top: 150px;
+        font-size: 40px;
+    }
+ 
+    .background_txtmini{
+        font-size: 12px;
+    }
+ 
+    .background_end{
+        margin-top: 100px;
+    }
+
+    .capabilities{
+        display: block;
+      
+    }
+
+    .capabilities_heading{
+        padding-right: 0px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .capabilities_heading:after{
+        content: "";
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .capabilities_content{
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .capabilities_button{
+        margin-left: -50px;
+        display: flex;
+        justify-content: center;
+        margin: 0px, 0px;
+    }
+ }
+
+ @media(max-width:500px){
+    .menu_txt{
+        display: none;
+    }
+ }
+
+ @media(max-width:690px){
+
+    .signup_txt{
+       padding: 0px;
+       margin-bottom: 15px;
+    }
+     .signup{
+        height: 200px;
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+     }
+
+     .signup_container{
+        display:block;
+        
+     }
+
+     .signup_input{
+      display: flex;
+      justify-content: center;
+     }
+ }
